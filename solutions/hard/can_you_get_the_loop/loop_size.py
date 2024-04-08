@@ -12,7 +12,6 @@ class Node:
 def loop_size(node):
     fast = node
     slow = node
-    counter = 0
 
     while fast and fast.next:
         fast = fast.next.next
